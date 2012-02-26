@@ -1,0 +1,61 @@
+//***
+// Excerpted from "Agile Web Development with Rails, 4th Ed.",
+// published by The Pragmatic Bookshelf.
+// Copyrights apply to this code. It may not be used to create training material, 
+// courses, books, articles, and the like. Contact us if you are in doubt.
+// We make no guarantees that this code is fit for any purpose. 
+// Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+//
+// 日本語版については http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06866-9
+//***
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.products {
+  table {
+    border-collapse: collapse;
+  }
+
+  table tr td {
+    padding: 5px;
+    vertical-align: top;
+  }
+
+  .list_image {
+    width:  60px;
+    height: 70px;
+  }
+
+  .list_description {
+    width: 60%;
+
+    dl {
+      margin: 0;
+    }
+
+    dt {
+      color:        #244;
+      font-weight:  bold;
+      font-size:    larger;
+    }
+
+    dd {
+      margin: 0;
+    }
+  }
+
+  .list_actions {
+    font-size:    x-small;
+    text-align:   right;
+    padding-left: 1em;
+  }
+
+  .list_line_even {
+    background:   #e0f8f8;
+  }
+
+  .list_line_odd {
+    background:   #f8b0f8;
+  }
+}

@@ -1,0 +1,31 @@
+<!--
+ Excerpted from "Agile Web Development with Rails, 4th Ed.",
+ published by The Pragmatic Bookshelf.
+ Copyrights apply to this code. It may not be used to create training material, 
+ courses, books, articles, and the like. Contact us if you are in doubt.
+ We make no guarantees that this code is fit for any purpose. 
+ Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+
+ 日本語版については http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06866-9
+-->
+<h1>Listing carts</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @carts.each do |cart| %>
+  <tr>
+    <td><%= link_to 'Show', cart %></td>
+    <td><%= link_to 'Edit', edit_cart_path(cart) %></td>
+    <td><%= link_to 'Destroy', cart, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Cart', new_cart_path %>
