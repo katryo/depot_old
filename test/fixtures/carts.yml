@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+=======
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 
 # This model initially had no columns defined.  If you add columns to the
 # model remove the '{}' from the fixture names and add the columns immediately

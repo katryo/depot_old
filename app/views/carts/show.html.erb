@@ -1,7 +1,33 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
 
+<<<<<<< HEAD
 <!-- START_HIGHLIGHT -->
 <%= render @cart %>
 <!-- END_HIGHLIGHT -->
+=======
+<div class="cart_title">Cart</div>
+<table>
+  <% @cart.line_items.each do |item| %>
+  <tr>
+    <td><%= item.quantity %>&times;</td>
+    <td><%= item.product.title %></td>
+    <td class="item_price"><%= number_to_currency(item.total_price) %></td>
+  </tr>
+  
+<% end %>
+  
+  <tr class="total_line">
+    <td colspan="2">Sum</td>
+    <td class="total_cell"><%= number_to_currency(@cart.total_price) %></td>
+  </tr>
+</table>
+
+  <%= button_to 'reflesh the cart', @cart, method: :delete,
+    confirm: 'Are you sure?' %>
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928

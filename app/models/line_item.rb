@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
 # published by The Pragmatic Bookshelf.
@@ -10,6 +11,13 @@ class LineItem < ActiveRecord::Base
   belongs_to :product
   belongs_to :cart
 
+=======
+# encoding: utf-8
+
+class LineItem < ActiveRecord::Base
+  belongs_to :product
+  belongs_to :cart
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   def total_price
     product.price * quantity
   end

@@ -1,16 +1,31 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
+=======
+# encoding: utf-8
+#---
+# Excerpted from "Agile Web Development with Rails, 4th Ed.",
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 # published by The Pragmatic Bookshelf.
 # Copyrights apply to this code. It may not be used to create training material, 
 # courses, books, articles, and the like. Contact us if you are in doubt.
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+<<<<<<< HEAD
+=======
+#
+# 日本語版については http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06866-9
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 #---
 Depot::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
+<<<<<<< HEAD
   # every request. This slows down response time but is perfect for development
+=======
+  # every request.  This slows down response time but is perfect for development
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
@@ -30,6 +45,7 @@ Depot::Application.configure do
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
 
+<<<<<<< HEAD
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
 
@@ -37,6 +53,8 @@ Depot::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   config.active_record.auto_explain_threshold_in_seconds = 0.5
 
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   # Do not compress assets
   config.assets.compress = false
 

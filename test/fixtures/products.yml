@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # Read about fixtures at
 # http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+=======
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 
 one:
   title: MyString
@@ -12,7 +16,10 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+<<<<<<< HEAD
 #START:ruby
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 
 ruby: 
   title:       Programming Ruby 1.9
@@ -22,4 +29,7 @@ ruby:
     delivered fast, you should add Ruby to your toolbox.
   price:       49.50
   image_url:   ruby.png 
+<<<<<<< HEAD
 #END:ruby
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928

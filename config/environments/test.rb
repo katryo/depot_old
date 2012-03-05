@@ -1,18 +1,35 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
+=======
+# encoding: utf-8
+#---
+# Excerpted from "Agile Web Development with Rails, 4th Ed.",
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 # published by The Pragmatic Bookshelf.
 # Copyrights apply to this code. It may not be used to create training material, 
 # courses, books, articles, and the like. Contact us if you are in doubt.
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+<<<<<<< HEAD
+=======
+#
+# 日本語版については http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06866-9
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 #---
 Depot::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # The test environment is used exclusively to run your application's
+<<<<<<< HEAD
   # test suite. You never need to work with it otherwise. Remember that
   # your test database is "scratch space" for the test suite and is wiped
   # and recreated between test runs. Don't rely on the data there!
+=======
+  # test suite.  You never need to work with it otherwise.  Remember that
+  # your test database is "scratch space" for the test suite and is wiped
+  # and recreated between test runs.  Don't rely on the data there!
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   config.cache_classes = true
 
   # Configure static asset server for tests with Cache-Control for performance
@@ -37,9 +54,22 @@ Depot::Application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
+<<<<<<< HEAD
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+=======
+  # Use SQL instead of Active Record's schema dumper when creating the test database.
+  # This is necessary if your schema can't be completely dumped by the schema dumper,
+  # like if you have constraints or database-specific column types
+  # config.active_record.schema_format = :sql
+
+  # Print deprecation notices to the stderr
+  config.active_support.deprecation = :stderr
+
+  # Allow pass debug_assets=true as a query parameter to load pages with unpackaged assets
+  config.assets.allow_debugging = true
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 end

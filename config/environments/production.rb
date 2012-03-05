@@ -1,10 +1,21 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
+=======
+# encoding: utf-8
+#---
+# Excerpted from "Agile Web Development with Rails, 4th Ed.",
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 # published by The Pragmatic Bookshelf.
 # Copyrights apply to this code. It may not be used to create training material, 
 # courses, books, articles, and the like. Contact us if you are in doubt.
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+<<<<<<< HEAD
+=======
+#
+# 日本語版については http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06866-9
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 #---
 Depot::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
@@ -41,11 +52,16 @@ Depot::Application.configure do
   # See everything in the log (default is :info)
   # config.log_level = :debug
 
+<<<<<<< HEAD
   # Prepend all log lines with the following tags
   # config.log_tags = [ :subdomain, :uuid ]
 
   # Use a different logger for distributed setups
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
+=======
+  # Use a different logger for distributed setups
+  # config.logger = SyslogLogger.new
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 
   # Use a different cache store in production
   # config.cache_store = :mem_cache_store
@@ -68,8 +84,11 @@ Depot::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+<<<<<<< HEAD
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 end

@@ -11,20 +11,34 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20110711000006) do
 
   create_table "carts", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+=======
+ActiveRecord::Schema.define(:version => 20110711000004) do
+
+  create_table "carts", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   end
 
   create_table "line_items", :force => true do |t|
     t.integer  "product_id"
     t.integer  "cart_id"
+<<<<<<< HEAD
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
     t.integer  "quantity",   :default => 1
     t.decimal  "price"
+=======
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "quantity",   :default => 1
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   end
 
   create_table "products", :force => true do |t|
@@ -32,8 +46,13 @@ ActiveRecord::Schema.define(:version => 20110711000006) do
     t.text     "description"
     t.string   "image_url"
     t.decimal  "price",       :precision => 8, :scale => 2
+<<<<<<< HEAD
     t.datetime "created_at",                                :null => false
     t.datetime "updated_at",                                :null => false
+=======
+    t.datetime "created_at"
+    t.datetime "updated_at"
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   end
 
 end

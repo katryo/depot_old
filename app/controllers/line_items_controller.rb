@@ -1,10 +1,21 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
+=======
+# encoding: utf-8
+#---
+# Excerpted from "Agile Web Development with Rails, 4th Ed.",
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 # published by The Pragmatic Bookshelf.
 # Copyrights apply to this code. It may not be used to create training material, 
 # courses, books, articles, and the like. Contact us if you are in doubt.
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+<<<<<<< HEAD
+=======
+#
+# 日本語版については http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06866-9
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 #---
 class LineItemsController < ApplicationController
   # GET /line_items
@@ -51,11 +62,18 @@ class LineItemsController < ApplicationController
     @cart = current_cart
     product = Product.find(params[:product_id])
     @line_item = @cart.add_product(product.id)
+<<<<<<< HEAD
 
     respond_to do |format|
       if @line_item.save
         format.html { redirect_to store_url }
         format.js   { @current_item = @line_item }
+=======
+    respond_to do |format|
+      if @line_item.save
+        format.html { redirect_to @line_item.cart,
+          notice: 'Line item was successfully created.' }
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
         format.json { render json: @line_item,
           status: :created, location: @line_item }
       else
@@ -74,7 +92,11 @@ class LineItemsController < ApplicationController
     respond_to do |format|
       if @line_item.update_attributes(params[:line_item])
         format.html { redirect_to @line_item, notice: 'Line item was successfully updated.' }
+<<<<<<< HEAD
         format.json { head :no_content }
+=======
+        format.json { head :ok }
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
       else
         format.html { render action: "edit" }
         format.json { render json: @line_item.errors, status: :unprocessable_entity }
@@ -90,7 +112,11 @@ class LineItemsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to line_items_url }
+<<<<<<< HEAD
       format.json { head :no_content }
+=======
+      format.json { head :ok }
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
     end
   end
 end

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #---
 # Excerpted from "Agile Web Development with Rails",
 # published by The Pragmatic Bookshelf.
@@ -5,6 +6,10 @@
 # courses, books, articles, and the like. Contact us if you are in doubt.
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+=======
+# encoding: utf-8
+#---
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 #---
 class Cart < ActiveRecord::Base
   has_many :line_items, dependent: :destroy
@@ -15,6 +20,7 @@ class Cart < ActiveRecord::Base
       current_item.quantity += 1
     else
       current_item = line_items.build(product_id: product_id)
+<<<<<<< HEAD
       current_item.price = current_item.product.price
     end
     current_item
@@ -22,5 +28,13 @@ class Cart < ActiveRecord::Base
 
   def total_price
     line_items.to_a.sum { |item| item.total_price }
+=======
+    end
+    current_item
+  end
+  
+  def total_price
+    line_items.to_a.sum {|item| item.total_price }
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   end
 end

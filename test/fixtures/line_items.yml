@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
@@ -11,3 +12,14 @@ two:
   product: ruby
   cart: one
 #END_HIGHLIGHT
+=======
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  product_id: 1
+  cart_id: 1
+
+two:
+  product_id: 1
+  cart_id: 1
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928

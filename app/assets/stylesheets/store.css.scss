@@ -1,8 +1,24 @@
+<<<<<<< HEAD
+=======
+//***
+// Excerpted from "Agile Web Development with Rails, 4th Ed.",
+// published by The Pragmatic Bookshelf.
+// Copyrights apply to this code. It may not be used to create training material, 
+// courses, books, articles, and the like. Contact us if you are in doubt.
+// We make no guarantees that this code is fit for any purpose. 
+// Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+//
+// 日本語版については http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06866-9
+//***
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 // Place all the styles related to the Store controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+<<<<<<< HEAD
 /* START_HIGHLIGHT */
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 .store {
   h1 {
     margin: 0;
@@ -12,7 +28,11 @@
     border-bottom: 3px dotted #77d;
   }
 
+<<<<<<< HEAD
   /* An entry in the store catalog */
+=======
+  /* ストアカタログ内のエントリ */
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
   .entry {
     overflow: auto;
     margin-top: 1em;
@@ -35,7 +55,10 @@
       color: #227;
     }
 
+<<<<<<< HEAD
 //#START:inline
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
     p, div.price_line {
       margin-left: 100px;
       margin-top: 0.5em; 
@@ -45,7 +68,10 @@
         display: inline;
       }
     }
+<<<<<<< HEAD
 //#END:inline
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
 
     .price {
       color: #44a;
@@ -54,4 +80,7 @@
     }
   }
 }
+<<<<<<< HEAD
 /* END_HIGHLIGHT */
+=======
+>>>>>>> 570b355f06b7113634febe12746ca231cc0e3928
